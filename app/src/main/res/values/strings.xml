@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HMQcoffee</string>
+    <string name="facebook_app_id">628903351095207</string>
+
+    <string name="Home">Home</string>
+    <string name="Products">Products</string>
+    <string name="Card">Card</string>
+    <string name="Setting">Setting</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_coffee">Coffee</string>
+    <string name="menu_Tea">Tea</string>
+    <string name="menu_Freeze">Freeze</string>
+    <string name="menu_Food">Food</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_receipt">Receipt</string>
+    <string name="menu_setting">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

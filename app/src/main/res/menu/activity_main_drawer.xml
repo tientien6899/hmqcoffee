@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_coffee"
+            android:icon="@drawable/coffee"
+            android:title="@string/menu_coffee" />
+        <item
+            android:id="@+id/nav_tea"
+            android:icon="@drawable/tea"
+            android:title="@string/menu_Tea" />
+        <item
+            android:id="@+id/nav_Freeze"
+            android:icon="@drawable/freeze"
+            android:title="@string/menu_Freeze" />
+        <item
+            android:id="@+id/nav_Food"
+            android:icon="@drawable/menu"
+            android:title="@string/menu_Food" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="@string/menu_cart" />
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/receipt"
+            android:title="@string/menu_receipt" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/menu_setting"/>
+
+    </group>
+</menu>

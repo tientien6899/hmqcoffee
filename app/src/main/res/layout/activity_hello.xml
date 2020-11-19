@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelloActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="30dp"
+            android:text="Welcome to"
+            android:textColor="#000000"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="H M Q coffee"
+            android:textColor="#ffab52"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Have a delicious taste forever with us."
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffab52"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radius_button_1"
+            android:text="Sign Up"
+            android:textSize="29sp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radius_button"
+            android:backgroundTint="@android:color/white"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#ffab52"
+            android:textSize="29sp" />
+    </LinearLayout>
+
+</LinearLayout>

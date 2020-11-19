@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hmqcoffee.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_coffee"
+            app:destination="@id/nav_coffee" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.example.hmqcoffee.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_nav_cart_to_nav_receipt"
+            app:destination="@id/nav_receipt" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_coffee"
+        android:name="com.example.hmqcoffee.ui.product.ProductFragment"
+        android:label="@string/menu_coffee"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_nav_coffee_to_nav_tea"
+            app:destination="@id/nav_tea" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tea"
+        android:name="com.example.hmqcoffee.ui.tea.TeaFragment"
+        android:label="@string/menu_Tea"
+        tools:layout="@layout/fragment_tea" >
+        <action
+            android:id="@+id/action_nav_tea_to_nav_freeze"
+            app:destination="@id/nav_Freeze" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Freeze"
+        android:name="com.example.hmqcoffee.ui.freeze.FreezeFragment"
+        android:label="@string/menu_Freeze"
+        tools:layout="@layout/fragment_freeze" >
+        <action
+            android:id="@+id/action_nav_freeze_to_nav_Food"
+            app:destination="@id/nav_Food" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Food"
+        android:name="com.example.hmqcoffee.ui.cake.FoodFragment"
+        android:label="@string/menu_Food"
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_nav_Food_to_nav_cart"
+            app:destination="@id/nav_cart" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_receipt"
+        android:name="com.example.hmqcoffee.ui.receipt.ReceiptFragment"
+        android:label="@string/menu_receipt"
+        tools:layout="@layout/fragment_receipt" >
+        <action
+            android:id="@+id/action_nav_receipt_to_nav_setting"
+            app:destination="@id/nav_setting" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.hmqcoffee.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

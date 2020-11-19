@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "345710489226",
+    "firebase_url": "https://hqmcoffee.firebaseio.com",
+    "project_id": "hqmcoffee",
+    "storage_bucket": "hqmcoffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345710489226:android:8f1167c2239f851a840773",
+        "android_client_info": {
+          "package_name": "com.example.hmqcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345710489226-iqlfipc63oddflolgi02c0ht5s14d058.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgRZb_xMmAOiQddGBsVU0IcJ2F8Hvr7T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345710489226-iqlfipc63oddflolgi02c0ht5s14d058.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

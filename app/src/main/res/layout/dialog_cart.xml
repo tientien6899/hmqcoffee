@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="485dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Product Detail"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="#ffab52"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_cart_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/dialog_cart_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffab52"/>
+
+    <TextView
+        android:id="@+id/dialog_cart_price"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffab52"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffab52"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Quantity"
+            android:textColor="#ffab52"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/dialog_cart_tru"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dialog_tru"/>
+
+        <TextView
+            android:id="@+id/dialog_cart_sl"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#d4c1a7"/>
+
+        <Button
+            android:id="@+id/dialog_cart_cong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dialog_add"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffab52"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/dialog_item_sl_change"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#d4c1a7"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="x"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#ffab52"/>
+        <TextView
+            android:id="@+id/dialog_item_price_change"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#d4c1a7"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="="
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#ffab52"/>
+        <TextView
+            android:id="@+id/dialog_item_total"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#d4c1a7"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffab52"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <Button
+            android:id="@+id/dialog_cart_save"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Save"
+            android:textColor="#ffab52"
+            android:layout_gravity="center"
+            android:background="@drawable/radius_button"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/dialog_cart_delete"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Delete"
+            android:textColor="#ffab52"
+            android:layout_gravity="center"
+            android:background="@drawable/radius_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
